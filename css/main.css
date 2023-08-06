@@ -1,0 +1,37 @@
+/* Set global font family for the entire HTML document */
+html {
+  font-family: 'REM', sans-serif;
+}
+
+/* Styling for h1 headings */
+h1 {
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+/* Styling for h2 headings */
+h2 {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+/* Styling for paragraphs */
+p {
+  font-size: 1rem;
+}
+
+/* Define custom color variables for the color scheme */
+:root {
+  --primary-color: #c8d8e05f;
+  --secondary-color: #e2dbe886;
+}
+
+/* Style the navigation bar with the primary color from the custom variables */
+.navbar {
+  background-color: var(--primary-color);
+}
+
+/* Style the footer with the secondary color from the custom variables */
+footer {
+  background-color: var(--secondary-color);
+}

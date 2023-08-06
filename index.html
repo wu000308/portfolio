@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lexi Wu Photography</title>
+    <!-- Font link styles -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=REM:wght@100;400;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap style -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- Font Awesome Styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom Sytles -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <!-- The container-fluid div ensures content spans the entire width -->
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg p-3 mb-4" role="navigation" id="topcontent">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#home"><img src="images/logo2.png" alt="logo" width="80"></a>
+            <!-- Mobile navigation toggle button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Navigation links container -->
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    <a class="nav-link" href="#about">About</a>
+                    <a class="nav-link" href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <!-- Header Section -->
+        <header role="banner">
+            <!-- Carousel (Slideshow) -->
+            <div id="carouselExampleIndicators" class="carousel slide pb-4">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <!-- Carousel items -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/slide1.jpeg" class="d-block w-100" alt="A busy street in Amsterdam">
+                        <div class="carousel-caption d-md-block text-center">
+                            <h1>Hi! I'm Lexi.</h1>
+                            <p class="fs-4">Welcome to my world of Photography!</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/slide2.jpeg" class="d-block w-100" alt="Top mountain view in Paris">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/slide3.png" class="d-block w-100"
+                            alt="A beach view in a water park">
+                    </div>
+                </div>
+                <!-- Carousel navigation buttons -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </header>
+        <!-- Main Content Section -->
+        <main role="main">
+            <!-- Photo Gallery divided in three columns-->
+            <div class="row">
+                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                    <img src="images/work1.jpg" class="w-100 shadow-1-strong rounded mb-4"
+                        alt="a top mountain view in San Francisco">
+
+                    <img src="images/work2.jpg" class="w-100 shadow-1-strong rounded mb-4"
+                        alt="a sculpture of a man on a horse in a square">
+                    <img src="images/work7.jpeg" class="w-100 shadow-1-strong rounded mb-4"
+                        alt="a busy tourist street in Amsterdam">
+
+                </div>
+
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <img src="images/work3.jpg" class="w-100 shadow-1-strong rounded mb-4"
+                        alt="A religious oil painting on a wall">
+
+                    <img src="images/work4.jpg" class="w-100 shadow-1-strong rounded mb-4"
+                        alt="Street view in a gloomy weather">
+                </div>
+
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <img src="images/work5.jpg" class="w-100 shadow-1-strong rounded mb-4"
+                        alt="a sculputure in a museum">
+
+                    <img src="images/work6.jpg" class="w-100 shadow-1-strong rounded mb-4"
+                        alt="Altar to the homeland in mexico city">
+                    <img src="images/work8.jpeg" class="w-100 shadow-1-strong rounded mb-4"
+                        alt="A river view at sunset">
+                </div>
+            </div>
+            <!-- About section divided in two columns-->
+            <div class="card mb-3" id="about">
+                <div class="row g-0">
+                    <div class="col-md-3">
+                        <img src="images/profile.jpeg" class="img-fluid rounded-start"
+                            alt="profile photo of the website author">
+                    </div>
+                    <div class="col-md-9">
+                        <div class="card-body">
+                            <h2 class="card-title">About Me</h2>
+                            <p class="card-text">Hello there, I'm Lexi! I'm on a mission to capture life's best moments
+                                through my lens. Whether it's snapping vibrant photos or creating captivating videos,
+                                I've got a knack for turning ordinary scenes into extraordinary memories.</p>
+
+                            <p class="card-text">Imagine me as a curious wanderer, trotting across the globe in pursuit
+                                of those breathtaking landscapes that hit you right in the heart. But hold up, I'm not
+                                just about scenery. I'm all about nabbing those genuine emotions and weaving them into
+                                stories that come alive through the images.</p>
+
+                            <p class="card-text">If my website were a scrapbook, it'd be bursting at the seams. It's a
+                                virtual treasure chest filled with photos that spill the beans about my adventures and
+                                introduce you to some of the coolest people I've crossed paths with. So, grab your
+                                favorite brew, find a comfy spot, and let's explore the world together, one frame at a
+                                time.</p>
+
+                            <p class="card-text"><small class="text-body-secondary">Yes, me as a child is already cool
+                                    as hell. </small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Contact Section Using Image Overlays -->
+            <div class="card " id="contact">
+                <!-- Background image -->
+                <img src="images/contact_img.jpg" class="card-img " alt="a blured view">
+                <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center">
+                    <h2 class="card-title text-center p-2">Contact Me</h2>
+                    <p class="card-text text-center col-8 p-2">Get ready for some spontaneous creative deliveries! By
+                        "subscribe," I mean you
+                        might just find my latest masterpieces sneakily sliding into your inbox when you least expect
+                        it.</p>
+                    <!-- Contact Form -->
+                    <form>
+                        <!-- Name input -->
+                        <div class="form-outline mb-6">
+                            <input type="text" placeholder="Your Name" class="form-control mb-3">
+                        </div>
+
+                        <!-- Email input -->
+                        <div class="form-outline mb-6">
+                            <input type="email" placeholder="Your Email" class="form-control mb-3">
+                        </div>
+
+                        <!-- Submit button -->
+                        <div class="d-grid gap-2 col-12 mx-auto mb-6">
+                            <button type="submit" class="btn btn-dark text-white  p-2 text-center">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </main>
+    </div>
+    <!-- Footer Section -->
+    <footer class="text-center p-3 mt-4" role="contentinfo">
+        <!-- Copyright information and social media icons -->
+        <p>&copy; 2023 by <img src="images/logo2.png" width="60" alt="logo"></p>
+        <p class="socialmedia">
+            <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram fa-lg"
+                    style="color: #e92fe2;"></i></a>
+            <a href="https://www.whatsapp.com/" target="_blank"><i class="fa-brands fa-whatsapp fa-lg"
+                    style="color: #424ef2;"></i></a>
+        </p>
+        <!-- Link to quickly return to the top of the page for accessibility -->
+        <a href="#topcontent" class="link-secondary text-center">Back To Top</a>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
