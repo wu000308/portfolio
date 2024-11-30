@@ -20,18 +20,26 @@ p {
   font-size: 1rem;
 }
 
+/* Ensure consistent padding and margin for all container sections */
+.container {
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+}
+
+/* Remove any extra margin that may cause inconsistent spacing */
+section {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 /* Define custom color variables for the color scheme */
 :root {
-  --primary-color: #c8d8e05f;
-  --secondary-color: #e2dbe886;
+  --primary-color: white;
+  --secondary-color: black;
 }
 
 /* Style the navigation bar with the primary color from the custom variables */
 .navbar {
   background-color: var(--primary-color);
-}
-
-/* Style the footer with the secondary color from the custom variables */
-footer {
-  background-color: var(--secondary-color);
 }
